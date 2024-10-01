@@ -9,7 +9,7 @@ const navbar: React.FC = () => {
                 <li className='navList'>About</li>
                 <li className='navList'>Services</li>
                 <li className='navList'>Contact</li>
-                <li className='navList'>Hire Me</li>
+                <li className='navList bg-red-600 hover:bg-red-700'>Hire Me</li>
             </ul>
         </div>
     )
