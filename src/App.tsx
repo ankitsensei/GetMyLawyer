@@ -1,7 +1,13 @@
+import React from 'react'
+import NavBar from './components/Nav'
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <div>App</div>
+    <div>
+      <div className="content">
+        <NavBar/>
+      </div>
+    </div>
   )
 }
 
