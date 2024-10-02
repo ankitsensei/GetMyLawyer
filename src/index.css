@@ -9,5 +9,6 @@
     cursor: pointer;
 }
 .navList:hover{
-    background-color: #d1d1d1bc;
+    background-color: #9333ea;
+    color:white;
 }
