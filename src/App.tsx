@@ -22,11 +22,43 @@ JITENDRA MONDAL</h1>
                     <img src={Lawyer} alt="lawyer" className="w-auto h-[80vh]" />
                 </div>
       </div>
-      <div id="page2" className='w-full h-screen bg-[#0A2342] text-white py-20'>
-                <h1 className="text-4xl font-semibold flex justify-center underline">Services We Offer</h1>
-                <ul>
-                    <li>Legal Consultation</li>
-                    <li>Document Drafting</li>
+      <div id="page2" className='w-full h-[100%] bg-[#0A2342] text-white py-20'>
+                <h1 className="text-5xl font-semibold flex justify-center underline text-purple-600">Services We Offer</h1>
+                <ul className="mt-20 mx-20 flex justify-center gap-10 flex-wrap" id="page2li">
+                    <li><h1>Legal Consultation</h1><p>Offering advice on legal matters like rights, obligations, and the legal process.</p></li>
+                    <li><h1>Document Drafting</h1> <p>Preparing legal documents such as contracts, wills, trusts, and agreements.</p></li>
+                    <li>
+                      <h1>Representation in Court</h1>
+                      <p>Defending or prosecuting clients in criminal and civil court cases.</p>
+                    </li>
+                    <li>
+                      <h1>Dispute Resolution</h1>
+                      <p>Assisting in resolving disputes through mediation, arbitration, or negotiation.</p>
+                    </li>
+                    <li>
+                      <h1>Legal Research:</h1>
+                      <p>Investigating case law, statutes, and regulations to support legal arguments.</p>
+                    </li>
+                    <li>
+                      <h1>Contract Review</h1>
+                      <p>Reviewing agreements and contracts to ensure they are legally sound and protect the client's interests.</p>
+                    </li>
+                    <li>
+                      <h1>Corporate Services</h1>
+                      <p>Handling business-related legal issues like company formation, compliance, mergers, and acquisitions.</p>
+                    </li>
+                    <li>
+                      <h1>Family Law</h1>
+                      <p>Handling cases related to divorce, child custody, alimony, and adoption.</p>
+                    </li>
+                    <li>
+                      <h1>Criminal Defense</h1>
+                      <p>Defending individuals accused of crimes.</p>
+                    </li>
+                    <li>
+                      <h1>Estate Planning</h1>
+                      <p>Helping clients plan the distribution of their assets after death through wills or trusts.</p>
+                    </li>
                 </ul>
       </div>
     </div>
