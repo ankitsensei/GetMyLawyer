@@ -20,6 +20,15 @@ const App: React.FC = () => {
           <img className='' src="https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2017/05/04/Local/Images/JUDGELEE_22.JPG?t=20170517" alt="judge" />
         </div>
       </div>
+      <div id="hero2" className='flex items-center justify-between my-28 mx-10'>
+        <div id="hero2Text" className=' p-20 '>
+          <h1 className='text-4xl font-bold'>Your Trusted Partner for Comprehensive Legal Solutions Tailored to Your Needs</h1>
+          <p className='my-10 text-[22px]'>With extensive experience across various legal fields, I provide personalized strategies that cater to your unique situation. My proven track record demonstrates my commitment to achieving favorable outcomes for my clients.</p>
+        </div>
+        <div id="hero2Pic" className='w-full'>
+          <img className='h-[600px] w-auto' src="https://thepublicsquare.com/wp-content/uploads/2019/09/judge-web.jpg" alt="judge" />
+        </div>  
+      </div>
     </div>
   )
 }
