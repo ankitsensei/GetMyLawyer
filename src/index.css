@@ -2,29 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.navList{
-    padding: 5px 15px;
-    border: 2px white;
-    border-radius: 20px;
-    cursor: pointer;
-}
-.navList:hover{
-    background-color: #9333ea;
-    color:white;
-}
-
-#page2li h1{
-    font-size: 2rem;
-    color: #ac54ff;
-}
-
-#page2li p{
-    color: rgb(246, 164, 255);
-}
-#page2li li{
-    width: 400px;
-    height: 400px;
-    background-color: rgb(135, 41, 182);
-    padding: 20px;
-    border-radius:20px;
-}
