@@ -1,7 +1,6 @@
 import React from 'react'
 import NavBar from './components/Nav'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { byPrefixAndName } from '@awesome.me/kit-KIT_CODE/icons'
+import Reviews from './components/Reviews'
 
 const App: React.FC = () => {
   return (
@@ -60,6 +59,15 @@ const App: React.FC = () => {
             <button className='flex gap-2 items-center text-lg'>Get Started<i className="fa-solid fa-chevron-right"></i></button>
           </div>
         </div>
+      </div>
+      <div id="trust2" className='mx-20'>
+        <h1 className='text-5xl font-bold my-5'>Client Testimonials</h1>
+        <p className='font-semibold '>A true professional who exceeded my expectations.</p>
+          <div className='flex mx-20 my-14 gap-2'>
+            <Reviews stars = {5} comment="I felt supported every step of the way." profile = "https://c.pxhere.com/photos/08/7a/male_portrait_profile_social_media_cv_young_elegant_suit-459413.jpg!d" name = "John Doe" position = "CEO, Legal Corp" />
+            <Reviews stars = {5} comment="Expert advice that made all the difference!" profile = "https://i.pinimg.com/originals/3d/40/6a/3d406aa185eb1845276ecf3a8c963fce.jpg" name = "Jane Smith" position = "Manager, Law Firm" />
+            <Reviews stars = {5} comment="Highly recommend for any legal issues!" profile = "https://sguru.org/wp-content/uploads/2017/06/bb4d683d694b005802524761d9f8d0c9.jpg" name = "Mark Johnson" position = "Director, Justice Inc" />
+          </div>
       </div>
     </div>
   )
