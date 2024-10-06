@@ -4,12 +4,11 @@ import Logo from '../assets/imgs/law_logo.jpg'
 
 const navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
-
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
     };
     return (
-        <div className=''>
+        <div className='sticky top-0 z-50'>
             <div className="flex py-2 px-10 border-b-2 border-black justify-between items-center">
                 <img src={Logo} alt="logo" className='w-14 h-14 rounded-[50%]' />
                 <ul className='flex gap-6'>

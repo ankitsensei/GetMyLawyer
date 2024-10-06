@@ -1,5 +1,7 @@
 import React from 'react'
 import NavBar from './components/Nav'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { byPrefixAndName } from '@awesome.me/kit-KIT_CODE/icons'
 
 const App: React.FC = () => {
   return (
@@ -29,7 +31,36 @@ const App: React.FC = () => {
           <img className='h-[600px] w-auto' src="https://thepublicsquare.com/wp-content/uploads/2019/09/judge-web.jpg" alt="judge" />
         </div>  
       </div>
-
+      <div id="trust1" className='mt-24'>
+        <div className='flex flex-col mb-16 justify-center items-center'>
+            <p className='text-s mb-5 font-semibold'>Justice</p>
+            <h1 className="text-4xl font-bold">Your Trusted Legal Partner</h1>
+            <p className='text-s'>Expert legal representation for various case types.</p>
+        </div>
+        <div className='flex justify-between mx-20 mb-40 gap-6'>
+          <div id="boxCase1" className='border-2 border-black w-2/4 h-[350px] p-10 flex flex-col gap-4'>
+            <i className="fa-solid fa-cube text-5xl"></i>
+            <h1 className = "text-3xl font-bold">Case Specialization</h1>
+            <p className='text-lg'>From criminal defense to family law, I cover a wide range of legal issues.</p>
+            <div className='flex justify-start items-center gap-5'>
+              <button className='px-5 py-2 border-2 border-black'>Learn More</button>
+              <button className='flex gap-2 items-center'>Contact<i className="fa-solid fa-chevron-right text-lg"></i></button>
+            </div>
+          </div>
+          <div id="boxCase2" className='border-2 border-black w-1/4 h-[350px] p-10 flex flex-col gap-4'>
+            <i className="fa-solid fa-cube text-5xl"></i>
+            <h1 className = "text-2xl font-bold">Comprehensive Legal Services Offered</h1>
+            <p className='text-lg'>Criminal Defense, Family Law, Corporate Law.</p>
+            <button className='flex gap-2 items-center text-lg'>Explore<i className="fa-solid fa-chevron-right text-lg"></i></button>
+          </div>
+          <div id="boxCase3" className='border-2 border-black w-1/4 h-[350px] p-10 flex flex-col gap-4'>
+            <i className="fa-solid fa-cube text-5xl"></i>
+            <h1 className = "text-2xl font-bold">Why Chosse My Service?</h1>
+            <p className='text-lg'>Dedicated, experienced, and client-focused legal assistance.</p>
+            <button className='flex gap-2 items-center text-lg'>Get Started<i className="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
