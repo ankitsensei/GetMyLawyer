@@ -101,7 +101,11 @@ const App: React.FC = () => {
         <Faqs question = "What if I lose?" answer = "While losing a case is always a possibility, my commitment is to provide the best defense possible. I will work tirelessly to explore all avenues for a favorable outcome. Remember, every case is unique, and I am here to guide you through the process."/>
         <hr className='h-[1px] bg-black border-none' />
           </div>
-    
+        <div className='mt-20 flex flex-col justify-between items-start gap-3'>
+            <h1 className='text-3xl font-bold'>Still have questions?</h1>
+            <p className='text-lg'>Don't hesitate to react out!</p>
+            <button className='py-2 px-5 border-2 border-black'>Contact</button>
+        </div>
       </div>
     </div>
   )
