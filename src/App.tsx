@@ -107,6 +107,16 @@ const App: React.FC = () => {
             <button className='py-2 px-5 border-2 border-black'>Contact</button>
         </div>
       </div>
+      <div id="contacts" className='mt-40 mx-20 flex justify-between items-center'>
+        <div className='flex flex-col gap-4'>
+          <h1 className='text-4xl font-bold'>Your Legal Solutions Awaits</h1>
+          <p className='text-lg'>Schedule your consultation today for expert legal advice.</p>
+        </div>
+        <div className='flex gap-3'>
+          <button className='py-2 px-4 bg-black border-2 border-black text-white'>Contact</button>
+          <button className='py-2 px-4 border-2 border-black'>Learn More</button>
+        </div>
+      </div>
     </div>
   )
 } 
