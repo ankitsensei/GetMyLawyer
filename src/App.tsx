@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './components/Nav'
 import Reviews from './components/Reviews'
+import Faqs from './components/Faqs'
 
 const App: React.FC = () => {
   return (
@@ -75,12 +76,32 @@ const App: React.FC = () => {
           <h1 className='text-5xl font-bold pe-20'>Your Trusted Advocate in Legal Matters</h1>
         </div>
         <div id="content" className='w-1/2 flex flex-col gap-8'>
-          <p>With a robust background in law and a commitment to serving clients, I bring over a decade of experience in various legal fields. My education from a top-tier law school has equipped me with the skills necessary to navigate complex legal challenges.</p>
+          <p className='text-lg'>With a robust background in law and a commitment to serving clients, I bring over a decade of experience in various legal fields. My education from a top-tier law school has equipped me with the skills necessary to navigate complex legal challenges.</p>
           <div className=''>
             <button className="px-5 py-2 outline-2 border-2 border-black">Learn More</button>
             <button className='px-5 py-2'>Contact <i className="fa-solid fa-chevron-right"></i></button>
           </div>
         </div>
+      </div>
+      <div id="faqs" className='mt-40 mx-20'>
+        <div className='flex flex-col gap-5 mb-20'>
+          <h1 className='text-5xl font-bold'>FAQs</h1>
+          <p className='text-lg'>Here are answers to some common questions we receive from potential clients.</p>
+        </div>
+          <div id="questionsAswers">
+          <hr className='h-[1px] bg-black border-none' />
+        <Faqs question = "Why do I hire you?" answer = "Hiring me is simple! You can start by filling out the contact form on our website. Once submitted, I will reach out to discuss your case and how I can assist you."/>
+        <hr className='h-[1px] bg-black border-none' />
+        <Faqs question = "What are your fees?" answer = "My fees vary depending on the complexity of the case. I offer transparent pricing and will provide a detailed estimate after our initial consultation. You can trust that there are no hidden costs."/>
+        <hr className='h-[1px] bg-black border-none' />
+        <Faqs question = "What types of cases?" answer = "I handle a wide range of cases, including criminal defense, family law, personal injury, and more. My goal is to provide expert legal representation tailored to your specific needs. If you have a unique situation, feel free to reach out!"/>
+        <hr className='h-[1px] bg-black border-none' />
+        <Faqs question = "How long will it take?" answer = "The duration of a case can vary widely based on its complexity and the legal processes involved. During our initial consultation, I will provide a realistic timeline based on your specific situation. Rest assured, I will keep you informed every step of the way."/>
+        <hr className='h-[1px] bg-black border-none' />
+        <Faqs question = "What if I lose?" answer = "While losing a case is always a possibility, my commitment is to provide the best defense possible. I will work tirelessly to explore all avenues for a favorable outcome. Remember, every case is unique, and I am here to guide you through the process."/>
+        <hr className='h-[1px] bg-black border-none' />
+          </div>
+    
       </div>
     </div>
   )
