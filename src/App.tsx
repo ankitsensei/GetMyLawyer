@@ -69,8 +69,21 @@ const App: React.FC = () => {
             <Reviews comment="Highly recommend for any legal issues!" profile = "https://sguru.org/wp-content/uploads/2017/06/bb4d683d694b005802524761d9f8d0c9.jpg" name = "Mark Johnson" position = "Director, Justice Inc" />
           </div>
       </div>
+      <div id="trust3" className='mt-40 mx-20 flex justify-between items-center gap-40'>
+        <div id="heading" className='w-1/2 flex flex-col gap-4'>
+          <p className='font-semibold'>Justics</p>
+          <h1 className='text-5xl font-bold pe-20'>Your Trusted Advocate in Legal Matters</h1>
+        </div>
+        <div id="content" className='w-1/2 flex flex-col gap-8'>
+          <p>With a robust background in law and a commitment to serving clients, I bring over a decade of experience in various legal fields. My education from a top-tier law school has equipped me with the skills necessary to navigate complex legal challenges.</p>
+          <div className=''>
+            <button className="px-5 py-2 outline-2 border-2 border-black">Learn More</button>
+            <button className='px-5 py-2'>Contact <i className="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
     </div>
   )
-}
+} 
 
 export default App
