@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from './components/Nav'
 import Reviews from './components/Reviews'
 import Faqs from './components/Faqs'
+import Logo from './assets/imgs/law_logo.jpg'
 
 const App: React.FC = () => {
   return (
@@ -117,6 +118,39 @@ const App: React.FC = () => {
           <button className='py-2 px-4 border-2 border-black'>Learn More</button>
         </div>
       </div>
+      <div id="footer1" className='mx-20 mt-40 flex justify-between items-center font-semibold'>
+        <img src={Logo} alt="logo" className='w-14 h-14 rounded-[50%]' />
+        <div id="impLinks">
+          <ul className='flex gap-10'>
+            <li>Legal Services</li>
+            <li>Link Two</li>
+            <li>Link Three</li>
+            <li>Link Four</li>
+            <li>Link Five</li>
+          </ul>
+        </div>
+        <div id="socialLinks">
+          <ul className='flex gap-5 text-xl'>
+            <li><i className="fa-brands fa-facebook"></i></li>
+            <li><i className="fa-brands fa-instagram"></i></li>
+            <li><i className="fa-brands fa-x-twitter"></i></li>
+            <li><i className="fa-brands fa-linkedin"></i></li>
+            <li><i className="fa-brands fa-youtube"></i></li>
+          </ul>
+        </div>
+      </div>
+        <hr className='h-[2px] bg-black 20'/>
+        <div id="footer2" className='my-20 flex justify-center items-center gap-10 font-semibold mx-20'>
+          <div className='flex gap-2'>
+          <p>© 2024 Relume.</p>
+          <p>All right reserved</p>
+          </div>
+          <div className='flex gap-5 underline'>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Cookies Settings</p>
+          </div>
+        </div>
     </div>
   )
 } 
